@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const amount = donationAmountInput.value.trim();
       if (amount !== '') {
         // Customize the donation URL as needed
-        window.open(`tel:*9*7*01061944122*${encodeURIComponent(amount)}#`, "_blank");
+        window.open(`tel:*9*7*01061944122*${encodeURIComponent(amount)}%23`, "_blank");
       }
       donationModal.style.display = 'none';
     });
